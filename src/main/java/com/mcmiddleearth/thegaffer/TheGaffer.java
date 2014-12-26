@@ -15,7 +15,6 @@
  */
 package com.mcmiddleearth.thegaffer;
 
-import com.mcmiddleearth.thegaffer.TeamSpeak.TSfetcher;
 import com.mcmiddleearth.thegaffer.commands.AdminCommands.JobAdminConversation;
 import com.mcmiddleearth.thegaffer.commands.JobCommand;
 import com.mcmiddleearth.thegaffer.commands.JobCreationConversation;
@@ -85,7 +84,7 @@ public class TheGaffer extends JavaPlugin {
         }else{
             TSenabled = false;
         }
-        new TSfetcher().runTaskTimer(this, 20, 1200);
+//        new TSfetcher().runTaskTimer(this, 20, 1200);
         setupConfig();
         try {
             int jobsLoaded = JobDatabase.loadJobs();

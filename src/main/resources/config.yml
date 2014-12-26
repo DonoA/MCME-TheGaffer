@@ -4,4 +4,10 @@ servlet:
     port: 8080
 unprotectedworlds:
     - plotworld
-TS: false
+TeamSpeak:
+    enabled: true
+    projectChannel: 0
+    host: localhost
+    QueryUser:
+        Name: serveradmin
+        Password: Y1SA7DZ+
