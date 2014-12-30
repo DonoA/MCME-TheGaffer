@@ -9,22 +9,14 @@ package com.mcmiddleearth.thegaffer.TeamSpeak;
 //import com.mcmiddleearth.thegaffer.TeamSpeak.JTS3ServerQuery;
 //import com.mcmiddleearth.thegaffer.TeamSpeak.TeamspeakActionListener;
 import com.mcmiddleearth.thegaffer.TheGaffer;
-import com.mcmiddleearth.thegaffer.storage.Job;
 import com.mcmiddleearth.thegaffer.storage.JobDatabase;
 import de.stefan1200.jts3serverquery.JTS3ServerQuery;
 import de.stefan1200.jts3serverquery.TeamspeakActionListener;
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Scanner;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 import lombok.Getter;
 import lombok.Setter;
-import static org.bukkit.Bukkit.getPlayer;
-import org.bukkit.entity.Player;
 
 
 /**
